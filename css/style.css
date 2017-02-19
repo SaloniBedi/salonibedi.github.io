@@ -493,8 +493,6 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 }
 
-
-
 .social
 {
     margin: 0;
@@ -552,11 +550,6 @@ section#contact .form-group input, section#contact .form-group textarea {
 .social .fa-linkedin:hover
 {
 
-}
-
-.social .fa-skype:hover
-{
-    padding-bottom: 0px;
 }
 
 .ul-center

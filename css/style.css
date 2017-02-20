@@ -271,6 +271,9 @@ font-weight: 700;
     margin-top: 0;
     margin-bottom: 10px;
 }
+.skillbar a{
+    color: #222;
+}
 
 /*--------------------
 4.3. Portfolio
@@ -478,7 +481,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 {
     color: #FFFFFF;
     font-size: medium;
-    background-color: #000000;
+    background-color: #111;
     padding-top: 50px;
     height: 170px;
     margin-bottom: 0px;
@@ -501,7 +504,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 .social:hover
 {
-    background-color: #000000;
+    background-color: #111;
 }
 
 .social ul
@@ -530,7 +533,7 @@ section#contact .form-group input, section#contact .form-group textarea {
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    background: #000;
+    background: #111;
 
 }
 
@@ -651,6 +654,7 @@ font-size: 11px;
     font-size: 18px;
     padding: 20px 40px;
 }
+
 
 /* Back to top button
 ---------------------------------- */

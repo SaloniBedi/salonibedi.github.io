@@ -496,6 +496,10 @@ section#contact .form-group input, section#contact .form-group textarea {
 /*--------------------
 5. Footer
 --------------------*/
+footer {
+    padding: 30px;
+    background-color: #000;    
+}
 
 #footer
 {

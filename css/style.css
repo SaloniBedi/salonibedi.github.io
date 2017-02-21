@@ -11,7 +11,7 @@ Import Google Fonts
 --------------------*/
 
 /* main font for menu. */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,600,700|Raleway:200,300,400,500,600,700,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,600,700,900);
 
 /*--------------------
 1. General
@@ -19,7 +19,7 @@ Import Google Fonts
 
 body {
 	margin: 0px;
-	font-family: "Raleway", Sans-serif;
+	font-family: "glyphicons-halflings", Sans-serif;
 }
 
 h1,
@@ -30,12 +30,12 @@ h5,
 h6 {
 	font-weight: 200;
 	letter-spacing: 0.4px;
-	font-family: "Raleway", Sans-serif;
+	font-family: "glyphicons-halflings", Sans-serif;
 	color: #232323;
 }
 
 p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'glyphicons-halflings', sans-serif;
 	font-size: 17px;
 	font-weight: 300;
 	line-height: 28px;

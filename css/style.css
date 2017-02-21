@@ -170,17 +170,18 @@ section {
 --------------------*/
 
 .section-title {
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 }
 
 .section-title h2 {
+    font-family:'Raleway';
 	font-size: 50px;
 	text-transform: uppercase;
 }
 
 .section-title p {
+    font-family:'Raleway';
 	font-size: 18px;
-	font-weight: 350;
 	line-height: 33px;
 	margin: 25px 100px 30px 100px;
 }
@@ -211,7 +212,7 @@ section {
 }
 
 .mz-module-about h3 {
-font-weight: 700;
+    font-weight: 700;
     font-size: 13px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -483,6 +484,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 .contact p {
     font-size: 13px;
     margin-bottom: 0px;
+    font-weight: 300;
 }
 
 .contact .day {

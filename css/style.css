@@ -11,7 +11,7 @@ Import Google Fonts
 --------------------*/
 
 /* main font for menu. */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,600,700,900);
 
 /*--------------------
 1. General
@@ -293,6 +293,7 @@ font-weight: 700;
     border-radius: 2px;
 }
 
+
 /*--------------------
 4.3. Portfolio
 --------------------*/
@@ -496,10 +497,6 @@ section#contact .form-group input, section#contact .form-group textarea {
 /*--------------------
 5. Footer
 --------------------*/
-footer {
-    padding: 30px;
-    background-color: #000;    
-}
 
 #footer
 {
@@ -509,6 +506,7 @@ footer {
     padding: 50px;
     height: 170px;
 }
+
 
 #footer p
 {

@@ -170,7 +170,7 @@ section {
 --------------------*/
 
 .section-title {
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 }
 
 .section-title h2 {
@@ -183,11 +183,11 @@ section {
     font-family:'Raleway';
 	font-size: 18px;
 	line-height: 33px;
-	margin: 25px 100px 30px 100px;
+	margin: 10px 100px 5px 100px;
 }
 
 .mz-module .section-title {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 /*--------------------
@@ -487,30 +487,9 @@ figure.effect-bubba:hover p {
     border-radius: 0px;
 }
 
-section#contact form {
-    width: 60%;
-    margin: 15px auto;
-}
-
-section#contact.form-group {
-margin-bottom: 25px;
-}
-
-section#contact .form-group input, section#contact .form-group textarea {
-    padding: 15px;
-    border: 1px solid #F5F5F5;
-    border-width: 0px 0px 1px
-    border-bottom-style: solid;
-    border-bottom-color: #666;
-    border-radius: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
-    font-size: 13px;
-    background-color: #F5F5F5;
-}
 
 .contact h3 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .contact p {
@@ -521,11 +500,17 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 .contact .day {
     display: inline-block;
-    width: 80px;
+    width: 70px;
 }
 
 .contact i {
     margin-right: 5px;
+}
+
+.contact-link {
+    font-size: 17px;
+    font-weight: 500;
+    color: #222;
 }
 
 

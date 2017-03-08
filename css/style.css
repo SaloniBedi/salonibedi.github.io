@@ -651,6 +651,11 @@ font-size: 11px;
     padding: 5px 10px;
 }
 
+.h_iframe iframe {
+  top:0;
+  left:0;
+  width:100%; 
+}
 /*--------------------
 7. Components
 --------------------*/

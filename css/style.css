@@ -83,6 +83,97 @@ section {
 2. Navigation
 --------------------*/
 
+.navbar-fixed-top {
+        background-color: #000;
+        border-color: transparent
+    }
+    
+    .navbar-fixed-top .navbar-brand {
+    color: #fff;
+    padding: 5px;
+    }
+    .navbar-fixed-top .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-fixed-top .navbar-brand:active,.navbar-fixed-top .navbar-brand.active {
+    color: #fec503
+    }
+    .navbar-fixed-top .navbar-collapse {
+    border-color: rgba(255,255,255,.02)
+    }
+    .navbar-fixed-top .navbar-toggle {
+    background-color: #fed136;
+    border-color: #fed136
+    }
+    .navbar-fixed-top .navbar-toggle .icon-bar {
+    background-color: #fff
+}
+.navbar-fixed-top .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+    background-color: #fed136
+}
+.navbar-fixed-top .nav li a {
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #000;
+    border-bottom: 1px solid;
+    border-color: #000;
+    margin: 10px 15px;
+    padding: 0 0 2px 0;
+}
+
+.navbar-fixed-top .nav li a:hover,.navbar-default .nav li a:focus {
+    border-color: #991919;
+    outline: 0
+}
+
+.navbar-fixed-top .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136
+}
+.navbar-fixed-top .navbar-nav>.active>a:hover,.navbar-fixed-top .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503
+}
+
+@media (min-width:768px) {
+    .navbar-fixed-top
+    {
+        background-color: #fff;
+        padding: 10px 0px 10px 0px;
+        -webkit-transition:padding .3s;
+        -moz-transition:padding .3s;
+        transition:padding .3s;
+        border:0;
+        opacity: 50%
+    }
+    .navbar-wrapper {
+    background: rgba(0,0,0,0.2);
+}
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition:all .3s;
+        -moz-transition:all .3s;
+        transition:all .3s
+        padding: 0px;
+    }
+    .navbar-fixed-top .navbar-nav>.active>a {
+        border-radius: 3px
+    }
+    .navbar-fixed-top.navbar-shrink {
+        background-color: #222;
+        padding: 10px 0
+    }
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 4px;
+    }
+
+}    
+
+
+
+
 .navbar-default {
 	background-color: #F1F1F1;
 	border-color: transparent
@@ -163,7 +254,11 @@ section {
         padding-top: 15px;
         padding-bottom: 4px;
     }
-}
+
+    }
+
+
+
 
 /*--------------------
 4. Sections
@@ -629,6 +724,7 @@ footer p
 .modal-body {
 	padding: 0;
     margin-top: 0;
+    align-content: center;
 }
 
 .modal-body p {

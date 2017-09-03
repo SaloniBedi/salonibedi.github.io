@@ -752,6 +752,13 @@ font-size: 11px;
   left:0;
   width:100%; 
 }
+
+.modal-dialog modal-lg {
+align-content: center;
+
+} 
+
+
 /*--------------------
 7. Components
 --------------------*/
